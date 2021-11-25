@@ -15,12 +15,8 @@ fullnameOverride: ""
 
 service:
   name: todo-list-app
-  # NodePort: to expose it outside our cluster
-  type: NodePort
-  # Application container port
+  type: ClusterIP
   port: 8080
-  # For type NodePort
-  nodePort: 30000
 
 ingress:
   enabled: false
