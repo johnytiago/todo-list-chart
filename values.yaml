@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  name: thoba/todo-list-app
+  name: johnytiago/todo-list-app
   tag: latest
   pullPolicy: IfNotPresent
 
