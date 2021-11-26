@@ -3,12 +3,12 @@ entries:
   todo-list:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-11-26T00:20:08.218166176Z"
+    created: "2021-11-26T00:26:53.226406557Z"
     description: A Helm chart for the todo-list-app
-    digest: 29dff1a3bf680a024951111a35244bf1b6ea7721aa6723cba48ce247b3d6cebc
+    digest: 789c72b93b88fd546575030ad1582f15cb6185be7589ad76f4c7bec9214fd6f6
     home: https://github.com/johnytiago/todo-list-chart
     name: todo-list
     urls:
-    - https://github.com/johnytiago/todo-list-chart/releases/download/todo-list-0.1.1/todo-list-0.1.1.tgz
-    version: 0.1.1
-generated: "2021-11-26T00:20:08.218172976Z"
+    - https://github.com/johnytiago/todo-list-chart/releases/download/todo-list-0.1.2/todo-list-0.1.2.tgz
+    version: 0.1.2
+generated: "2021-11-26T00:26:53.226417659Z"
