@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   name: johnytiago/todo-list-app
-  tag: latest
+  tag: master
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
