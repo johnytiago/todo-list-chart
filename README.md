@@ -1,4 +1,4 @@
-# Todo-list Chart
+# Todo-list Chart 💥
 
 A Helm chart for the todo-list-app
 
