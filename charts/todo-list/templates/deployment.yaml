@@ -1,13 +1,13 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  {{- if .Values.externalLink }}
+  annotations:
+    link.argocd.argoproj.io/external-link: {{ .Values.externalLink }}
+  {{- end }}
   name: {{ include "todo-list-chart.fullname" . }}
   labels:
 {{ include "todo-list-chart.labels" . | indent 4 }}
-{{- if .Values.externalLink }}
-annotations:
-  link.argocd.argoproj.io/external-link: {{ .Values.externalLink }}
-{{- end }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
